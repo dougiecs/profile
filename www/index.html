@@ -1,0 +1,191 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Flat Profile App A Mobile App Flat Bootstrap Responsive Website Template | Single :: w3layouts</title>
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="msapplication-tap-highlight" content="no" />
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+	<!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+	<meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Flat Profile App Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android  Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() {setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<meta charset utf="8">
+       <!--font-awsome-css-->
+<link rel="stylesheet" href="css/font-awesome.min.css"> 
+		<!--bootstrap-->
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<!--custom css-->
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<!--component-css-->
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+			 <!--script-->
+<script src="js/bigSlide.js"></script>
+    <script>
+		$(document).ready(function() {
+		$('.menu-link').bigSlide();
+	});
+    </script>
+            <!--script-->
+<script src="js/responsiveslides.min.js"></script>
+	 <script>
+		$(function () {
+		  $("#slider").responsiveSlides({
+			auto: true,
+			nav: true,
+			speed: 500,
+			namespace: "callbacks",
+			pager: true,
+		  });
+		});
+	  </script>
+		<!--script-->
+		<script src="js/pie-chart.js" type="text/javascript"></script>
+ <script type="text/javascript">
+
+        $(document).ready(function () {
+           
+			 $('#demo-pie-1').pieChart({
+                barColor: '#68b828',
+                trackColor: '#E4E2E2',
+                lineCap: 'butt',
+                lineWidth: 10,
+                onStep: function (from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
+
+            $('#demo-pie-2').pieChart({
+                barColor: '#5bc0de',
+                trackColor: '#E4E2E2',
+                lineCap: 'butt',
+                lineWidth: 10,
+                onStep: function (from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
+
+            $('#demo-pie-3').pieChart({
+                barColor: '#d9534f',
+                trackColor: '#E4E2E2',
+                lineCap: 'square',
+                lineWidth: 10,
+                onStep: function (from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
+
+           
+        });
+
+    </script>
+<link href='//fonts.googleapis.com/css?family=Josefin+Sans:400,700italic,700,600italic,400italic,600,300italic,300,100italic,100' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="body-back">
+		<div class="masthead pdng-stn1">
+			<div id="menu" class="panel" role="navigation">
+				<div class="wrap-content">
+					<div class="search">
+						<form>
+							<input type="search" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}" required="">
+							<input type="submit" value=" ">
+						</form>
+					</div> 
+					<div class="profile-menu text-center">
+						<img class="img-circle border-effect" src="images/pic3.png" alt=" ">
+							<h3>Fulano de Tal</h3>
+								<h4><a href="#">Administrador</a></h4>
+							<div class="social-icon">
+							<ul>
+								<li><a href="#" class="facebook"><i class="fa fa-facebook"></i> facebook</a></li>
+								<li><a href="#" class="twitter"><i class="fa fa-twitter"></i> twitter</a></li>
+								<li><a href="#" class="google"><i class="fa fa-google"></i> google</a></li>
+							</ul>
+							</div>
+					</div>
+				</div>
+			</div>
+			<div class="phone-box wrap push">
+				<div class="menu-notify">
+					<div class="profile-left">
+						<a href="#menu" class="menu-link"><i class="fa fa-chevron-left"></i></a>
+					</div>
+					<div class="Profile-mid">
+						<h5 class="pro-link">Perfil</h5>
+					</div>
+					<div class="Profile-right">
+						<div id="dd1" class="wrapper-dropdown-1" tabindex="1"><i class="fa fa-gear"></i>
+							<ul class="dropdown">
+								<li><a href="#">Editar </a></li>
+								<li><a href="#">Ajuda</a></li>
+								<li><a href="#">Registro de Atividades</a></li>
+								<li><a href="#">Sair</a></li>
+							</ul>
+								<script type="text/javascript">
+															function DropDown(el) {
+																this.dd = el;
+																this.initEvents();
+															}
+															DropDown.prototype = {
+																initEvents : function() {
+																	var obj = this;
+												
+																	obj.dd.on('click', function(event){
+																		$(this).toggleClass('active');
+																		event.stopPropagation();
+																	});	
+																}
+															}
+															$(function() {
+												
+																var dd = new DropDown( $('#dd1') );
+												
+																$(document).click(function() {
+																	// all dropdowns
+																	$('.wrapper-dropdown-1').removeClass('active');
+																});
+												
+															});
+								</script>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="detalis-grids">			
+					<div class="details-grid">
+					</div>
+					<div class="details-shade">
+						<div class="details-img">
+							<img class="img-circle border-effect1" src="images/pic3.png" alt=" " />
+						</div>
+						<h3>fulano de tal</h3>
+						<span>06-586 478 4581</span>
+						<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+					</div>
+					<video width="320" height="240" controls>
+						<source src="images/video.webm" type="video/webm">
+						Your browser does not support the video tag.
+					</video>
+					<small>fonte: http://youtube.com/watch?v=RH3i7qONrT4</small>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="cordova.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script src="js/jquery.nicescroll.js"></script>
+	<script src="js/scripts.js"></script>
+	<script type="text/javascript">
+		app.initialize();
+	</script>
+</body>
+</html>
